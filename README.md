@@ -6,7 +6,7 @@ user data, live data and cyclic data are shown.
 The server can run in Django debug mode and without external hardware (mocking).  
 
 
-![Walkthrough_Video](https://github.com/Thaulino/the-little-base-station/media/walkthrough.gif)
+![Walkthrough_Video](https://github.com/Thaulino/the-little-base-station/blob/main/media/walkthrough.gif)
 
 
 ## some details
