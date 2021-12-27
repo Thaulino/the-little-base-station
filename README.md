@@ -1,7 +1,7 @@
 # the-little-base-station
 A django application which monitors temperature, pressure and fairy dust.  
 
-First thing to do is login in as user, after that the 
+First thing to do is login as user, after that the  
 user data, live data and cyclic data are shown.  
 The server can run in Django debug mode and without external hardware (mocking).  
 
@@ -20,7 +20,7 @@ The little-base-station ships with a custom command to trigger a measurement of 
 ```
 It is used as a cron job to trigger a periodic measurement, for example every 8 hours.  
   
-Python related [dependencies] (littlebasestation\requirements.txt)  
+Python related [dependencies](littlebasestation\requirements.txt)  
 
 ## hardware setup and testing 
 
