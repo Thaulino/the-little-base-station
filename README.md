@@ -25,5 +25,5 @@ Python related [dependencies](littlebasestation\requirements.txt)
 ## hardware setup and testing 
 
 I deployed and tested a setup consisting of a [raspberry pi 3B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) and a [bmp280 sensor module](https://www.az-delivery.de/en/products/azdelivery-bmp280-barometrischer-sensor-luftdruck-modul-fur-arduino-und-raspberry-pi)
-
-
+  
+![Hardware_Schematic](https://github.com/Thaulino/the-little-base-station/blob/main/media/circuit.JPG)
