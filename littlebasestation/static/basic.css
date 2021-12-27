@@ -1,0 +1,145 @@
+body {
+    font-family: monospace;
+    color: black;
+
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+    "header header"
+    "content content"
+    "footer footer";
+
+    background-color: rgb(227, 227, 227);
+    color: rgb(64, 64, 64);
+
+    grid-template-columns: auto 1fr;
+    padding-left:  2%;
+
+    max-width: 40em;
+
+    font-size: small;
+}
+
+div.header {
+	grid-area: header;
+}
+
+div.header div.flex-area{
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 100%;
+    justify-content: space-between;
+}
+
+div.table-container{
+  flex-grow: 2;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  align-self: start;
+  text-align: left;
+};
+
+
+
+
+nav {
+	grid-area: nav;
+}
+
+
+canvas {
+    padding-left: 0%;
+    /* padding-bottom: 1em; */ 
+    
+    min-height: 10em;
+    max-height: 20em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+div.content {
+	grid-area: content;
+}
+
+div.switch-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.footer {
+	grid-area: footer;
+}
+
+
+
+
+/*-------------  The slider *//* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 40px;
+    height: 20px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 12px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 17px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+

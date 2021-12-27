@@ -1,0 +1,6 @@
+asgiref==3.4.1
+bmp280==0.0.4
+Django==4.0
+i2cdevice==0.0.7
+sqlparse==0.4.2
+tzdata==2021.5
