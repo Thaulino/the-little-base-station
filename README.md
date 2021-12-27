@@ -1,12 +1,10 @@
 # the-little-base-station
 A django application which monitors temperature, pressure and fairy dust.  
 
-First thing to do is login as user, after that the  
-user data, live data and cyclic data are shown.  
-The server can run in Django debug mode and without external hardware (mocking).  
+First thing to do is login as user, after that the user data, live data and cyclic data are shown.  
+The server can run in Django debug mode and without external hardware (mocking enabled).  
 
-
-![Walkthrough_Video](https://github.com/Thaulino/the-little-base-station/blob/main/media/walkthrough.gif)
+<img src="https://github.com/Thaulino/the-little-base-station/blob/main/media/walkthrough.gif" alt="Walkthrough_Video" width="300">
 
 
 ## some details
@@ -25,5 +23,6 @@ Python related [dependencies](littlebasestation\requirements.txt)
 ## hardware setup and testing 
 
 I deployed and tested a setup consisting of a [raspberry pi 3B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) and a [bmp280 sensor module](https://www.az-delivery.de/en/products/azdelivery-bmp280-barometrischer-sensor-luftdruck-modul-fur-arduino-und-raspberry-pi)
-  
-![Hardware_Schematic](https://github.com/Thaulino/the-little-base-station/blob/main/media/circuit.JPG)
+
+<img src="https://github.com/Thaulino/the-little-base-station/blob/main/media/circuit.JPG" alt="Hardware_Schematic" width="250">
+
