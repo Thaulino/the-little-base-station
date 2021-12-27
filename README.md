@@ -37,7 +37,8 @@ python manage.py runserver
 
 Open http://127.0.0.1:8000/ in your browser to see the server running.
 
-
+**Warning: This is a devlopment server, please use a server like apache or nginx in production, 
+[a tutorial about deployment of django applications](https://uwsgi.readthedocs.io/en/latest/tutorials/Django_and_nginx.html)**
 
 ## some details
 
