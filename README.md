@@ -6,6 +6,38 @@ The server can run in Django debug mode and without external hardware (mocking e
 
 <img src="https://github.com/Thaulino/the-little-base-station/blob/main/media/walkthrough.gif" alt="Walkthrough_Video" width="300">
 
+## quickstart
+
+prequisition:  
+* python  
+* pip 
+* terminal
+* git  
+
+step by step  
+1. clone repository to ${SOME_DIRECTORY}  
+2. create and open virtual python environment
+3. navigate to ${SOME_DIRECTORY}\littlebasestation
+4. install packages via pip from requirements.txt  
+```
+ >> pip install -r requirements.txt 
+```
+5. create minimal database
+```
+python manage.py migrate
+```
+6. create a super user
+```
+python manage.py createsuperuser 
+```  
+7. start server
+```
+python manage.py runserver
+``` 
+
+Open http://127.0.0.1:8000/ in your browser to see the server running.
+
+
 
 ## some details
 
@@ -18,7 +50,7 @@ The little-base-station ships with a custom command to trigger a measurement of 
 ```
 It is used as a cron job to trigger a periodic measurement, for example every 8 hours.  
   
-Python related [dependencies](littlebasestation\requirements.txt)  
+Python related [dependencies](littlebasestation\\requirements.txt)  
 
 ## hardware setup and testing 
 
