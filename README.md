@@ -6,7 +6,7 @@ user data, live data and cyclic data are shown.
 The server can run in Django debug mode and without external hardware (mocking).  
 
 
-![Walkthrough_Video](https://github.com/Thaulino/the-little-base-station/media/the-little-base-station.webm)
+![Walkthrough_Video](https://github.com/Thaulino/the-little-base-station/media/walkthrough.gif)
 
 
 ## some details
@@ -18,9 +18,9 @@ The little-base-station ships with a custom command to trigger a measurement of 
 ```
     >> python manage.py triggermeasure
 ```
-It is used as a cron job to trigger a periodic measurement, for example every 8 hours.
-
-
+It is used as a cron job to trigger a periodic measurement, for example every 8 hours.  
+  
+Python related [dependencies] (littlebasestation\requirements.txt)  
 
 ## hardware setup and testing 
 
